@@ -2,7 +2,7 @@ module github.com/lbrlabs/pulumi-dynatrace/provider
 
 go 1.20
 
-replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20220824175045-450992f2f5b9
+replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 7ac578ce47fc
 
 require (
 	github.com/dynatrace-oss/terraform-provider-dynatrace v1.30.2
